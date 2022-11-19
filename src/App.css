@@ -97,8 +97,7 @@
   padding: 10px;
 }
 
-
-.container-arrow{
+.container-arrow {
   justify-content: space-between;
   padding: 10px 10px;
   color: rgba(128, 128, 128, 0.899);
@@ -106,4 +105,26 @@
 
 .container-arrow a {
   color: rgba(128, 128, 128, 0.899);
+}
+
+/* Medias */
+
+@media (max-width: 768px) {
+  .main-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    column-count: 1;
+    margin-top: 25px;
+  }
+  .btn-search {
+    width: 55px;
+    height: 30px;
+  }
+  .input-search {
+    width: 250px;
+  }
 }
